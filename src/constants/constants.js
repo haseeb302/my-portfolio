@@ -20,9 +20,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2016, text: 'Started my BS Computer Science', },
+  { year: 2017, text: 'Started learning Web development basics both front-end and backend', },
+  { year: 2018, text: 'Completed 2 internships during my bachelors in Web-Development', },
+  { year: 2019, text: 'Began my FYP in HISDU department of government where I built the project on my own to automate Promotion System.', },
+  { year: 2020, text: 'Worked as a Full-Stack developer in Stackcru Technologies', },
+  { year: 2021, text: 'Worked as a CTO in LastingSales, where I built the team and managed a CRM development', },
 ];
