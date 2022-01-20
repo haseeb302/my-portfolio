@@ -28,17 +28,16 @@ const Technologies = () =>  (
             <ListTitle>Back End</ListTitle>
             <ListParagraph>
               Experience with <br />
-              NodeJS and Database  
+              NodeJS, ExpressJS, PHP, Laravel
             </ListParagraph>
           </ListContainer>
         </ListItem>
         <ListItem>
           <DiFirebase size="3rem" />
           <ListContainer>
-            <ListTitle>UI/UX</ListTitle>
+            <ListTitle>Databases</ListTitle>
             <ListParagraph>
-              Experience with <br />
-              Figma  
+              MySQL, MongoDB 
             </ListParagraph>
           </ListContainer>
         </ListItem>

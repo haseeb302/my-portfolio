@@ -45,7 +45,20 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</SectionText>
+      <SectionText>
+      When I started my bachelors in Computer Science I had this vision of making an impact in this world. But for that I had to explore various fields and gain enough knowledge to take the right direction. This led me to develop entrepreneurial mindset and observe the society in a different way. I have worked as a
+      Full-Stack Software Engineer,
+      Chief Technology Officer,
+      Business Developer.
+
+      ** Latest Experience
+      During my short journey as a CTO in a startup I handled a complete product without much support. The backend was written in PHP/Laravel and front end was in AngularJS. The product was deployed on Azure and AWS both. I had a great experience of hiring and building a team. I almost handled everything of the process from documentation, to UI/UX design and then development. This experience has taught me a lot and gave me confidence.
+
+      ** Additional Skills
+      This is not it, I also gained enough knowledge of Digital Marketing, Sales, and UI/UX Design.
+
+      I love connecting with like-minded people, so if we have something in common. Let's connect and open new doors of opportunities.
+      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
