@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionDividerSecondary } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
@@ -20,7 +20,7 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <SectionDividerSecondary divider="1"/>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>
@@ -28,8 +28,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={source}>Preview</ExternalLinks>
+            <ExternalLinks href={visit} target="_blank">Code</ExternalLinks>
+            <ExternalLinks href={source} target="_blank">Preview</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

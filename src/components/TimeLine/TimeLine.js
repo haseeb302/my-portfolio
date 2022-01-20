@@ -44,19 +44,20 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       When I started my bachelors in Computer Science I had this vision of making an impact in this world. But for that I had to explore various fields and gain enough knowledge to take the right direction. This led me to develop entrepreneurial mindset and observe the society in a different way. I have worked as a
       Full-Stack Software Engineer,
       Chief Technology Officer,
       Business Developer.
-
-      ** Latest Experience
+      <br /><br />
+      <strong> ** Latest Experience </strong>
       During my short journey as a CTO in a startup I handled a complete product without much support. The backend was written in PHP/Laravel and front end was in AngularJS. The product was deployed on Azure and AWS both. I had a great experience of hiring and building a team. I almost handled everything of the process from documentation, to UI/UX design and then development. This experience has taught me a lot and gave me confidence.
-
+      <br /><br />
       ** Additional Skills
       This is not it, I also gained enough knowledge of Digital Marketing, Sales, and UI/UX Design.
-
+      <br /><br />
       I love connecting with like-minded people, so if we have something in common. Let's connect and open new doors of opportunities.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

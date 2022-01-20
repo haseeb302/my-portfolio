@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, SkillProgress } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <div>
@@ -29,6 +29,8 @@ const Technologies = () =>  (
             <ListParagraph>
               Experience with <br />
               NodeJS, ExpressJS, PHP, Laravel
+              {/* <SkillProgress max="100" value="70">                
+              </SkillProgress> */}
             </ListParagraph>
           </ListContainer>
         </ListItem>

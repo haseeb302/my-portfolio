@@ -113,6 +113,12 @@ export const ListItem = styled.li`
 }
 `
 
+export const SkillProgress = styled.progress`
+
+  
+
+`
+
 export const ListIcon = styled.img`
   display: block;
   width: 48px;
